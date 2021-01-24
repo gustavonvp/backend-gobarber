@@ -7,21 +7,55 @@
 - FRONTEND - :new_moon:
 - MOBILE - :new_moon:
 
-## Funcionalidades
+### Features
 - [x] Criar e editar horarios de agendamentos
 - [x] Criar e gerenciar barbeiros cadastrados no sistema
 - [x] Fila de envio de email 
 
-<p align="center">
- <a href="#tecnologias">Tecnologias</a> •  
- <a href="#autor">Autor</a>
-</p>
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Express](https://expressjs.com)
+- [Node.js](https://nodejs.org/en/)
+- [Bee-queue](https://github.com/bee-queue/bee-queue)
+- [Nodemailer](https://nodemailer.com)
+- [Sequelize](https://sequelize.org/)
+- [Mongoose](https://mongoosejs.com/)
+- [pg](https://node-postgres.com/)
+- [Jsonwebtoken](https://jwt.io/)
+- [PostgresSql](https://www.postgresql.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Docker](https://www.docker.com/)
+- [Redis](https://redis.io/)
 
 
-#tecnologias
+### Rodando o projeto
+
+$ docker run --name database -e POSTGRES_PASSWORD=docker -p 5433:5432 -d postgres
+$ docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
+$ docker run --name mongobarber -p 27017:27017 -d -t mongo  
+
+# Após executar os comandos acima, verificar se as imagens estão rodando no terminal:
+$ docker ps
+
+# Caso as imagens estejam paradas/não aparecem no terminal, executar:
+$ docker start database
+$ docker start redisbarber
+$ docker start mongobarber
+
+# Entrar na raiz do projeto e rodar o comando:
+$ yarn install
+
+# Ainda na raiz do projeto, rodar o comando:
+$ yarn start
 
 
+### Softwares para testar o backend
 
+- Imsomnia
+- MongoDB Compass
+- Postbird
 
 
 <h4 align="center"> 
