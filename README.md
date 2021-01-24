@@ -50,6 +50,7 @@ $ yarn install
 # Ainda na raiz do projeto, rodar o comando:
 $ yarn start
 
+- Utilizar o arquivo .env-example para configurar variáveis locais e softwares complementares para testar os endpoints da aplicação
 
 ### Softwares para testar o backend
 
