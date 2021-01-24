@@ -63,4 +63,4 @@ $ yarn start
 	🚧  React Select 🚀 Em construção...  🚧
 </h4>
 
-https://img.shields.io/github/issues/Rocketseat/unform
+![Badge](https://img.shields.io/github/issues/Rocketseat/unform)
