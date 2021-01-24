@@ -13,19 +13,19 @@
 - [x] Fila de envio de email 
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
+ <a href="#tecnologias">Tecnologias</a> •  
  <a href="#autor">Autor</a>
 </p>
 
-### Tecnologias
+
+#tecnologias
 
 
 
 
 
+<h4 align="center"> 
+	🚧  React Select 🚀 Em construção...  🚧
+</h4>
 
 https://img.shields.io/github/issues/Rocketseat/unform
