@@ -7,12 +7,12 @@
 - FRONTEND - :new_moon:
 - MOBILE - :new_moon:
 
-### Features
+## Features
 - [x] Criar e editar horarios de agendamentos
 - [x] Criar e gerenciar barbeiros cadastrados no sistema
 - [x] Fila de envio de email 
 
-### 🛠 Tecnologias
+## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -30,7 +30,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Redis](https://redis.io/)
 
 
-### Rodando o projeto
+## Rodando o projeto
 
 $ docker run --name database -e POSTGRES_PASSWORD=docker -p 5433:5432 -d postgres
 $ docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
